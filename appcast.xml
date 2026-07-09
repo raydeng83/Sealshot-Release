@@ -4,6 +4,14 @@
     <title>Sealshot</title>
     <!-- newest items first -->
     <item>
+      <title>0.7.0</title>
+      <pubDate>Thu, 09 Jul 2026 02:54:36 +0000</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/raydeng83/Sealshot-Release/releases/download/v0.7.0/Sealshot-0.7.0.zip" sparkle:edSignature="z4pDM9ooQgmWWmGINa4hANgHRefR6182YFXmVrU6ocvbkZP9ViuYVpM9HXgHZ1hK0YJNkg2Rg6d5qo9VuzWXBA==" length="68267507" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.6.0</title>
       <pubDate>Thu, 18 Jun 2026 23:45:54 GMT</pubDate>
       <sparkle:version>11</sparkle:version>
