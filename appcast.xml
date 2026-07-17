@@ -4,6 +4,67 @@
     <title>Sealshot</title>
     <!-- newest items first -->
     <item>
+      <title>0.7.1</title>
+      <pubDate>Fri, 17 Jul 2026 02:27:15 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Recording</h2>
+<ul>
+<li>The recording HUD now shows a Recording/Paused label beside the status icon.</li>
+<li>The record prompt now appears over full-screen apps, on the display being recorded.</li>
+<li>Each recording shortcut stops only its own recording mode.</li>
+<li>System and microphone audio are recorded at native 48 kHz for cleaner sound.</li>
+<li>A finished recording is selected automatically in the recent-captures strip.</li>
+</ul>
+<h2>Editor</h2>
+<ul>
+<li>One app-wide undo timeline: images, videos, metadata edits, and selection are all undoable steps, and each undo names what it undid.</li>
+<li>New Free Arrow tool — draw an arrow along any path, next to the straight Line Arrow.</li>
+<li>Pen, line, arrow, shape, step, and text annotations can now have an outline (casing) color with its own width control.</li>
+<li>Text tool overhaul: weight slider, per-tool color and opacity memory, visible text-box frame with resize dots, and typography remembered across launches.</li>
+<li>Captures render and export color-faithful — no more lightened text.</li>
+<li>Dragging a focused capture to Finder exports just the focus area.</li>
+<li>Duplicate a whole capture from the editor, the strip, or the Library.</li>
+<li>Extracted Data results appear in a single consolidated view; exports default to the image's name, and cancelling an extraction takes effect immediately.</li>
+<li>Structured Data Extraction uses the enhanced on-device model when it's downloaded.</li>
+<li>The toolbar and tabs freeze during blocking AI actions; navigating away cancels the action.</li>
+<li>Fit Width / Fit Height no longer leave a stray scrollbar.</li>
+<li>A remembered video reopens with its player panel and controls in place.</li>
+</ul>
+<h2>Library</h2>
+<ul>
+<li>Resize the Quick Look preview with the −/+ buttons, and grid tiles with ⌘+scroll.</li>
+<li>Play a video straight from its play badge in the strip; clicking the thumbnail opens it paused.</li>
+<li>Preview is available from the context menu, and the video action "Play" is now "Open".</li>
+<li>Drag multiple captures to Finder with a progress bar and Cancel.</li>
+<li>Empty Trash button clears the Trash in one click.</li>
+<li>Multi-select stays fast in large libraries.</li>
+</ul>
+<h2>Security</h2>
+<ul>
+<li>Idle auto-lock now follows system-wide idle time, not just activity inside the app.</li>
+<li>Menus and keyboard shortcuts are gated while the library is locked.</li>
+<li>Turning encryption on or off shows reliable progress and no longer damages video packages.</li>
+<li>Fixed a case where an interrupted recovery-key ceremony left the tab switcher disabled.</li>
+</ul>
+<h2>Capture & OCR</h2>
+<ul>
+<li>A cancelled capture no longer raises the editor over the app you were using.</li>
+<li>OCR now recognizes non-Latin scripts, with automatic language detection.</li>
+<li>Smart Redaction catches more: 2FA backup-code grids, role names, ticket IDs, masked card numbers, and street addresses.</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>Deleted items are kept 7 days by default before being purged, and the retention setting now applies reliably to every trashed item.</li>
+<li>Your own tags are preserved when Smart Keywords are regenerated.</li>
+<li>Update dialogs use a cleaner centered-icon design matching the About panel.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/raydeng83/Sealshot-Release/releases/download/v0.7.1/Sealshot-0.7.1.zip" sparkle:edSignature="3tfEn4vOZ3Vwxll9IfXvSP9OQfA8iFKdcTO8IewkGh0Yfh/KgtTEJ3C0iws6dmk3dKQsfPhN38UOXdazXhexAg==" length="68862159" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.7.0</title>
       <pubDate>Thu, 09 Jul 2026 02:54:36 +0000</pubDate>
       <sparkle:version>12</sparkle:version>
